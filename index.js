@@ -8,7 +8,7 @@ const otpData = require("./src/models/otp");
 
 const user = require('./src/models/user');
 
-const PORT =  5000;
+const PORT = process.env.PORT || 5000;
 
 const app = new express;
 
